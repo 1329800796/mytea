@@ -31,7 +31,7 @@ public class MainFragmentPagerAdapter extends FragmentPagerAdapter {
 
 	@Override
 	public Object instantiateItem(View container, int position) {
-		Log.i(TAG, "==instantiateItem()");
+	
 		return super.instantiateItem(container, position);
 	}
 

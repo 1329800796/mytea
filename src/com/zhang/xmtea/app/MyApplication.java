@@ -7,7 +7,7 @@ import android.app.Application;
 import android.graphics.Bitmap;
 
 public class MyApplication extends Application {
-	/** ç¼“å­˜ä¸‹æ¥å„ç§å›¾ç‰‡<ç½‘å€ï¼Œbitmap> */
+	/** »º´æÏÂÀ´¸÷ÖÖÍ¼Æ¬<ÍøÖ·£¬bitmap> */
 	private Map<String, Bitmap> cacheImageMap = new HashMap<String, Bitmap>();
 
 	@Override
