@@ -29,6 +29,7 @@ import com.zhang.xmtea.R;
 import com.zhang.xmtea.adapter.MainFragmentPagerAdapter;
 import com.zhang.xmtea.app.MyApplication;
 import com.zhang.xmtea.config.MyConfig;
+import com.zhang.xmtea.fragment.ContentFragment;
 import com.zhang.xmtea.help.JsonHelper;
 import com.zhang.xmtea.help.MyHttpClientHelper;
 
@@ -75,7 +76,8 @@ public class MainActivity extends FragmentActivity {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-
+		initData();
+		initdaohang();
 	}
 
 	private void initData() {
@@ -139,10 +141,10 @@ public class MainActivity extends FragmentActivity {
 		/* viewPager */
 		list = new ArrayList<Fragment>();
 		for (int i = 0; i < arr_tabspec.length; i++) {
-//			Fragment fragment = new ContentFragment(urlStr[i],
-//					(List<Map<String, Object>>) result.get(urlStr[i]),
-//					cacheImageMap);
-//          list.add(fragment);
+			Fragment fragment = new ContentFragment(urlStr[i],
+					(List<Map<String, Object>>) result.get(urlStr[i]),
+					cacheImageMap);
+          list.add(fragment);
 		}
 		mainFragmentPagerAdapter = new MainFragmentPagerAdapter(
 				getSupportFragmentManager(), list);
