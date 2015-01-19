@@ -154,7 +154,7 @@ public class MainActivity extends FragmentActivity {
 
 					@Override
 					public void onPageSelected(int arg0) {
-						Log.i(TAG, "onPageSelected()==arg0-->" + arg0);
+						
 						if (arg0 == 5) {
 							goSearchActivity();// 跳转到搜索页，然后还原显示最后一个有数据的viewPager页
 							arr_tabspec[4].performClick();
@@ -193,7 +193,7 @@ public class MainActivity extends FragmentActivity {
 	 * 跳转到搜索页
 	 */
 	private void goSearchActivity() {
-		Log.i(TAG, "==跳转");
+		
 		Intent intent = new Intent(MainActivity.this, FunctionActivity.class);
 		intent.putExtra("titleTagStr", "0");// 0表示查百科
 		startActivity(intent);
