@@ -96,7 +96,7 @@ public class FunTeaFragment extends Fragment {
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 		super.onCreateView(inflater, container, savedInstanceState);
-		Log.i(TAG, "onCreateView()==");
+
 		View view = inflater.inflate(R.layout.fragment_fun_tea, null);
 		editText_funtea_searchEdit = (EditText) view
 				.findViewById(R.id.editText_funtea_searchEdit);

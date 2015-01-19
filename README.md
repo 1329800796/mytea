@@ -1,2 +1,24 @@
 # mytea
-é«˜ä»¿èŒ¶ç™¾ç§‘çš„ä¸€æ¬¾äº§å“ï¼Œå–œæ¬¢çš„å¯ä»¥mark ã€‚æ¬¢è¿starã€‚
+¸ß·ÂµÄÒ»¿î²úÆ·£¬»¶Ó­´ó¼Òmark¡£star¡£
+1.³õ´Î°²×°Òıµ¼½çÃæ¡£
+2.Ö÷Ò³¶¥²¿µ¼º½Ğ§¹û¡£
+3.Òì²½¼ÓÔØÊı¾İ£¬·ÃÎÊÍøÂç×ÊÔ´¡£
+4.¹ã¸æÂÖ²¥£¬Òıµ¼Ğ¡µãµÄĞ§¹û¡£
+5.listviewÏÂÀ­Ë¢ĞÂµÄÊµÏÖ¡£
+6.ÕıÎÄÊÕ²Ø£¬ÊÕ²ØÏÔÊ¾¡£
+7.json ½âÎöÊı¾İ¡£
+
+¹¦ÄÜÕ¹Ê¾£º
+http://github.com/1329800796/XMtea/raw/master/img/m1.png
+
+http://github.com/1329800796/XMtea/raw/master/img/m2.png
+
+http://github.com/1329800796/XMtea/raw/master/img/m3.png
+
+http://github.com/1329800796/XMtea/raw/master/img/n1.png
+
+http://github.com/1329800796/XMtea/raw/master/img/n2.png
+
+http://github.com/1329800796/XMtea/raw/master/img/n3.png
+
+
