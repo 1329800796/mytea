@@ -39,7 +39,6 @@ public class StartActivity extends Activity {
 	 * 数据初始化
 	 */
 	private void initData() {
-		Log.i(TAG, "==initData()");
 		sph = new SharepreferencesHelp(StartActivity.this);
 		mHandler = new Handler() {
 			/**

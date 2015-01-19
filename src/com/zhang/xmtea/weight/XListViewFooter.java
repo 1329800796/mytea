@@ -31,17 +31,17 @@ public class XListViewFooter extends LinearLayout {
 
 	public XListViewFooter(Context context) {
 		super(context);
-		Log.i(TAG, "start==XListViewFooter(1)");
+		
 		initView(context);
-		Log.i(TAG, "end==XListViewFooter(1)");
+		
 
 	}
 
 	public XListViewFooter(Context context, AttributeSet attrs) {
 		super(context, attrs);
-		Log.i(TAG, "start==XListViewFooter(2)");
+		
 		initView(context);
-		Log.i(TAG, "end==XListViewFooter(2)");
+		
 	}
 
 	public void setState(int state) {
@@ -104,16 +104,16 @@ public class XListViewFooter extends LinearLayout {
 		mContext = context;
 		LinearLayout moreView = (LinearLayout) LayoutInflater.from(mContext)
 				.inflate(R.layout.xlistview_footer, null);
-		Log.i(TAG, "moreView==start");
+		
 		addView(moreView);
-		Log.i(TAG, "moreView==end");
+		
 		moreView.setLayoutParams(new LinearLayout.LayoutParams(
 				LayoutParams.FILL_PARENT, LayoutParams.WRAP_CONTENT));
 
 		mContentView = moreView.findViewById(R.id.xlistview_footer_content);
-		Log.i(TAG, "progressbar==start");
+
 		mProgressBar = moreView.findViewById(R.id.xlistview_footer_progressbar);
-		Log.i(TAG, "progressbar==end");
+		
 		mHintView = (TextView) moreView
 				.findViewById(R.id.xlistview_footer_hint_textview);
 	}

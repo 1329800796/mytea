@@ -136,7 +136,6 @@ public class MainActivity extends FragmentActivity {
 	 * 初始化viewPager布局
 	 */
 	private void initLayout(Map<String, List<Map<String, Object>>> result) {
-		Log.i(TAG, "==initLayout()");
 
 		/* viewPager */
 		list = new ArrayList<Fragment>();

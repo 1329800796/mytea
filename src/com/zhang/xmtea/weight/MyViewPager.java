@@ -73,7 +73,6 @@ public class MyViewPager extends ViewPager {
 	 * µ¥»÷
 	 */
 	public void onSingleTouch() {
-		Log.i(TAG, "µ¥»÷");
 		if (onSingleTouchListener != null) {
 			onSingleTouchListener.onSingleTouch();
 		}

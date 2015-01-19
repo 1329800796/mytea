@@ -14,7 +14,6 @@ import android.graphics.drawable.ColorDrawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.view.PagerAdapter;
-import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.LayoutParams;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.util.Log;
@@ -239,9 +238,7 @@ public class ContentFragment extends BaseListFragment implements
 
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view,
-					int position, long id) {
-				Log.i(TAG, "==onItemClick(),position=" + position + ",id=" + id);
-				Log.i(TAG, "==自定义adapter中的每一项，把这数据弄下来");
+					int position, long id) {				
 				String idStr = list.get((int) id).get("id").toString();
 				goContentActivity(idStr);
 			}
@@ -418,7 +415,7 @@ public class ContentFragment extends BaseListFragment implements
 			byte[] bitmapByte = MyHttpClientHelper.loadByteFromURL(params[0]);
 			switch (flag) {
 			case 0:
-				Log.i(TAG, "==轮播图片josn中各种地址解析");
+				
 				jsonTolist(bitmapByte,
 						new String[] { "image_s", "id", "title" }, "data", flag);
 				break;
@@ -467,15 +464,13 @@ public class ContentFragment extends BaseListFragment implements
 				}
 				break;
 			case 3:
-				Log.i(TAG, "==每个输播图片的数据加载");
+				
 				getBitmap(urlStr, (byte[]) obj, 0);
 				break;
 			case 4:
-				Log.i(TAG, "==每个输播图片的数据加载");
 				getBitmap(urlStr, (byte[]) obj, 1);
 				break;
-			case 5:
-				Log.i(TAG, "==每个输播图片的数据加载");
+			case 5:				
 				getBitmap(urlStr, (byte[]) obj, 2);
 				break;
 			default:
@@ -524,13 +519,11 @@ public class ContentFragment extends BaseListFragment implements
 			e.printStackTrace();
 		}
 		jsonList = JsonHelper.jsonStringToList(str, jsonStrings, string);
-		Log.i(TAG, "jsonList==" + jsonList);
 		for (int i = 0; i < jsonList.size(); i++) {
 			urlStr = jsonList.get(i).get("image_s").toString();
 			String id = jsonList.get(i).get("id").toString();
 			String title = jsonList.get(i).get("title").toString();
 			titleArr[i] = title;
-			Log.i(TAG, "urlStr==" + urlStr);
 			ImageView imageView = (ImageView) viewList.get(i);
 			imageView.setTag(id);
 			if (cacheImageMap.get(urlStr) == null) {
@@ -562,7 +555,6 @@ public class ContentFragment extends BaseListFragment implements
 	 */
 	@Override
 	public void onClick(View v) {
-		Log.i(TAG, "v.getId()==" + v.getId());
 		goContentActivity(v.getTag().toString());
 	}
 
