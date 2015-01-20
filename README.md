@@ -10,14 +10,6 @@
 
 功能展示：
 
-![image](https://github.com/1329800796/XMtea/raw/master/screenshots/m1.jpg)
-
-![image](https://github.com/1329800796/XMtea/raw/master/screenshots/m2.jpg)
-
-![image](https://github.com/1329800796/XMtea/raw/master/screenshots/m3.jpg)
-
 ![image](https://github.com/1329800796/XMtea/raw/master/screenshots/n1.jpg)
 
-![image](https://github.com/1329800796/XMtea/raw/master/screenshots/n2.jpg)
 
-![image](https://github.com/1329800796/XMtea/raw/master/screenshots/n3.jpg)
