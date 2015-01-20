@@ -1,25 +1,25 @@
 # mytea
-¸ß·ÂµÄÒ»¿î²úÆ·£¬»¶Ó­´ó¼Òmark¡£star¡£
-1.³õ´Î°²×°Òıµ¼½çÃæ¡£
-2.Ö÷Ò³¶¥²¿µ¼º½Ğ§¹û¡£
-3.Òì²½¼ÓÔØÊı¾İ£¬·ÃÎÊÍøÂç×ÊÔ´¡£
-4.¹ã¸æÂÖ²¥£¬Òıµ¼Ğ¡µãµÄĞ§¹û¡£
-5.listviewÏÂÀ­Ë¢ĞÂµÄÊµÏÖ¡£
-6.ÕıÎÄÊÕ²Ø£¬ÊÕ²ØÏÔÊ¾¡£
-7.json ½âÎöÊı¾İ¡£
+é«˜ä»¿çš„ä¸€æ¬¾äº§å“ï¼Œæ¬¢è¿å¤§å®¶markã€‚starã€‚
+1.åˆæ¬¡å®‰è£…å¼•å¯¼ç•Œé¢ã€‚
+2.ä¸»é¡µé¡¶éƒ¨å¯¼èˆªæ•ˆæœã€‚
+3.å¼‚æ­¥åŠ è½½æ•°æ®ï¼Œè®¿é—®ç½‘ç»œèµ„æºã€‚
+4.å¹¿å‘Šè½®æ’­ï¼Œå¼•å¯¼å°ç‚¹çš„æ•ˆæœã€‚
+5.listviewä¸‹æ‹‰åˆ·æ–°çš„å®ç°ã€‚
+6.æ­£æ–‡æ”¶è—ï¼Œæ”¶è—æ˜¾ç¤ºã€‚
+7.json è§£ææ•°æ®ã€‚
 
-¹¦ÄÜÕ¹Ê¾£º
+åŠŸèƒ½å±•ç¤ºï¼š
 
-![Image text](https://github.com/1329800796/XMtea/raw/master/img/m1.png)
+![Image](https://github.com/1329800796/XMtea/raw/master/img/m1.png)
 
-![Image text](https://github.com/1329800796/XMtea/raw/master/img/m2.png)
+![Image](https://github.com/1329800796/XMtea/raw/master/img/m2.png)
 
-![Image text](https://github.com/1329800796/XMtea/raw/master/img/m3.png)
+![Image](https://github.com/1329800796/XMtea/raw/master/img/m3.png)
 
-![Image text](https://github.com/1329800796/XMtea/raw/master/img/n1.png)
+![Image](https://github.com/1329800796/XMtea/raw/master/img/n1.png)
 
-![Image text](https://github.com/1329800796/XMtea/raw/master/img/n2.png)
+![Image](https://github.com/1329800796/XMtea/raw/master/img/n2.png)
 
-![Image text](https://github.com/1329800796/XMtea/raw/master/img/n3.png)
+![Image](https://github.com/1329800796/XMtea/raw/master/img/n3.png)
 
 
