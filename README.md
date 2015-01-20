@@ -8,10 +8,7 @@
 6.正文收藏，收藏显示。
 7.json 解析数据。
 
-功能展示：
 
-![image](https://github.com/1329800796/XMtea/raw/master/screenshots/n1.jpg)
 
-![image](https://github.com/1329800796/XMtea/raw/master/screenshots/m1.jpg)
 
 
