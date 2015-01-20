@@ -10,16 +10,16 @@
 
 功能展示：
 
-![Image](https://github.com/1329800796/XMtea/raw/master/img/m1.png)
+![image](https://github.com/1329800796/XMtea/raw/master/img/m1.png)
 
-![Image](https://github.com/1329800796/XMtea/raw/master/img/m2.png)
+![image](https://github.com/1329800796/XMtea/raw/master/img/m2.png)
 
-![Image](https://github.com/1329800796/XMtea/raw/master/img/m3.png)
+![image](https://github.com/1329800796/XMtea/raw/master/img/m3.png)
 
-![Image](https://github.com/1329800796/XMtea/raw/master/img/n1.png)
+![image](https://github.com/1329800796/XMtea/raw/master/img/n1.png)
 
-![Image](https://github.com/1329800796/XMtea/raw/master/img/n2.png)
+![image](https://github.com/1329800796/XMtea/raw/master/img/n2.png)
 
-![Image](https://github.com/1329800796/XMtea/raw/master/img/n3.png)
+![image](https://github.com/1329800796/XMtea/raw/master/img/n3.png)
 
 
