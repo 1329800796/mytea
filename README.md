@@ -12,4 +12,6 @@
 
 ![image](https://github.com/1329800796/XMtea/raw/master/screenshots/n1.jpg)
 
+![image](https://github.com/1329800796/XMtea/raw/master/screenshots/m1.jpg)
+
 
